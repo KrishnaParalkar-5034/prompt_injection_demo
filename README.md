@@ -71,4 +71,4 @@ A small local model is **not bit-reproducible across server sessions**. At
 the variance this project actually observed came from run-to-run execution state
 (KV-cache reuse and batching), which is why the flag is `--repeats` rather than
 `--seeds`. Use it before quoting any single cell. The conclusions in `REPORT.md`
-are drawn from the archived run in `results/`.
+are drawn from the archived run `results/`.
